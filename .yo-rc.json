@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.openarchitex.accotech"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "AccoTech",
+    "packageName": "com.openarchitex.accotech",
+    "packageFolder": "com/openarchitex/accotech",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWQ4YWQ0ODVhYjgxOGJlMzc3MTc2YTIxMzIzZWU3NTI1ZDkwMzVmOGI1MzMwYWJjMzJhYzA3ZThiNTZlMWRjOTc5YjIyMTQ3OGU4OWIyYjUwZjZlN2ZjNzM3ZjBhNTVmMzQ4NDMyNGVlZTExNTQ4NzU0M2RkZWYzZGEwMWI0MjI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1596644265344,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
