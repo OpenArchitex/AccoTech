@@ -10,6 +10,10 @@ import { clearAuthentication } from './shared/reducers/authentication';
 import ErrorBoundary from './shared/error/error-boundary';
 import AppComponent from './app';
 import { loadIcons } from './config/icon-loader';
+import { fontAwesomeIcons } from './shared/util/fontawesome-icons';
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(fontAwesomeIcons)
 
 const devTools = process.env.NODE_ENV === 'development' ? <DevTools /> : null;
 
