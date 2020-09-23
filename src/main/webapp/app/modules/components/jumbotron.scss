@@ -1,0 +1,29 @@
+#jumbotron {
+  padding: 0;
+  position: relative;
+  height: 120vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#jumbotron video {
+  position: absolute;
+  z-index: 0;
+}
+
+#jumbotron .text-container {
+  position: relative;
+  z-index: 2;
+}
+
+#jumbotron .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Row, Col, Alert } from 'reactstrap';
 
-import { IRootState } from 'app/shared/reducers';
+import JumbotronElement from "app/modules/components/jumbotron";
 
 export type IHomeProp = StateProps;
 
@@ -15,6 +15,7 @@ export const Home = (props: IHomeProp) => {
 
   return (
     <Row>
+      <JumbotronElement/>
       <Col md="9">
         <h2>Welcome, Java Hipster!</h2>
         <p className="lead">This is your homepage</p>
