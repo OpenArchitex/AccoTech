@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import  {Jumbotron, Carousel, CarouselItem, CarouselCaption, CarouselIndicators, CarouselControl}  from "reactstrap";
+import React from "react";
+import  { Jumbotron }  from "reactstrap";
 import './jumbotron.scss';
 
 const JumbotronElement = () => {
