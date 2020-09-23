@@ -13,7 +13,11 @@ const JumbotronElement = () => {
         <div className="d-flex h-100 text-center align-items-center">
           <div className="w-100 text-white">
             <h1 className="display-3">AccoTech</h1>
-            <p className="lead mb-0">Companies run by engineers don&apos;t make money, but companies run by accountants don&apos;t make anything at all.</p>
+            <p className="lead mb-0">
+              <q>This is a question too difficult for a mathematician. It should be asked of a philosopher.</q>
+            </p>
+            <br/>
+            <p>&#8275; Albert Einstein (when asked about completing his income tax form) &#8275;</p>
           </div>
         </div>
       </div>
