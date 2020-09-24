@@ -1,11 +1,12 @@
 import React from "react";
-import  { Jumbotron }  from "reactstrap";
+import  { Jumbotron, Button, Container }  from "reactstrap";
 import './jumbotron.scss';
+import { Link } from 'react-router-dom';
 
 const JumbotronElement = () => {
   return (
     <Jumbotron fluid id="jumbotron">
-      <div className="overlay"></div>
+      <div className="overlay"/>
       <video autoPlay loop muted>
         <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"/>
       </video>
@@ -18,6 +19,11 @@ const JumbotronElement = () => {
             </p>
             <br/>
             <p>&#8275; Tilman J. Fertitta &#8275;</p>
+            <Container>
+              <Button color="info" className="mt-3" tag={Link} to='#services'>Learn More</Button>
+              {' '}
+              <Button color="info" className="mt-3" tag={Link} to='#contact-us'>Contact Us</Button>
+            </Container>
           </div>
         </div>
       </div>
