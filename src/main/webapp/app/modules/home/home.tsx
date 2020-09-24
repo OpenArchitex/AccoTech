@@ -20,8 +20,11 @@ export const Home = (props: IHomeProp) => {
     <Row>
       <JumbotronElement/>
       <Services/>
+      <hr/>
       <Team/>
+      <hr/>
       <ContactUs/>
+      <hr/>
     </Row>
   );
 };

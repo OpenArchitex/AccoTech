@@ -31,7 +31,7 @@ export const LogsPage = (props: ILogsPageProps) => {
   const loggers = logs ? Object.entries(logs.loggers).map(e => ({ name: e[0], level: e[1].effectiveLevel })) : [];
 
   return (
-    <div>
+    <div className="header-padding">
       <h2 id="logs-page-heading">Logs</h2>
       <p>There are {loggers.length.toString()} loggers.</p>
 

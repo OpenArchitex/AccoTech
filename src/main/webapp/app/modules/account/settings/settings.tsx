@@ -29,7 +29,7 @@ export const SettingsPage = (props: IUserSettingsProps) => {
   };
 
   return (
-    <div>
+    <div className="header-padding">
       <Row className="justify-content-center">
         <Col md="8">
           <h2 id="settings-title">User settings for {props.account.login}</h2>

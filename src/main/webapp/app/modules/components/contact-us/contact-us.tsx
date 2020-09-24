@@ -15,7 +15,7 @@ const ContactUs = () => {
               <div className="mb-3 mt-3 text-center">
                 <FontAwesomeIcon icon="phone" size="2x"/>
               </div>
-              <a href="tel:+1 888 343-1234">+1 888 343-1234</a>
+              <a href="tel:+1 888 343-1234">+1 888 123-4567</a>
             </Col>
             <Col className="col-xs-12 col-sm-4 text-center">
               <div className="mb-3 mt-3 text-center">

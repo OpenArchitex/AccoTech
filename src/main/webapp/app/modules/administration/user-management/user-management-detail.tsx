@@ -20,7 +20,7 @@ export const UserManagementDetail = (props: IUserManagementDetailProps) => {
   const { user } = props;
 
   return (
-    <div>
+    <div className="header-padding">
       <h2>
         User [<b>{user.login}</b>]
       </h2>

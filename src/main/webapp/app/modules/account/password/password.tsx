@@ -29,7 +29,7 @@ export const PasswordPage = (props: IUserPasswordProps) => {
   const updatePassword = event => setPassword(event.target.value);
 
   return (
-    <div>
+    <div className="header-padding">
       <Row className="justify-content-center">
         <Col md="8">
           <h2 id="password-title">Password for {props.account.login}</h2>

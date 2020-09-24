@@ -38,7 +38,7 @@ export const MetricsPage = (props: IMetricsPageProps) => {
   const { metrics, threadDump, isFetching } = props;
 
   return (
-    <div>
+    <div className="header-padding">
       <h2 id="metrics-page-heading">Application Metrics</h2>
       <p>
         <Button onClick={getMetrics} color={isFetching ? 'btn btn-danger' : 'btn btn-primary'} disabled={isFetching}>

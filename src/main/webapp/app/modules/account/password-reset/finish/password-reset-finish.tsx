@@ -61,7 +61,7 @@ export const PasswordResetFinishPage = (props: IPasswordResetFinishProps) => {
   };
 
   return (
-    <div>
+    <div className="header-padding">
       <Row className="justify-content-center">
         <Col md="4">
           <h1>Reset password</h1>

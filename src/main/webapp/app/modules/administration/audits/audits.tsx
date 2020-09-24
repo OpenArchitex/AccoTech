@@ -94,7 +94,7 @@ export const AuditsPage = (props: IAuditsPageProps) => {
   const { audits, totalItems } = props;
 
   return (
-    <div>
+    <div className="header-padding">
       <h2 id="audits-page-heading">Audits</h2>
       <span>from</span>
       <Input type="date" value={fromDate} onChange={onChangeFromDate} name="fromDate" id="fromDate" />

@@ -39,7 +39,7 @@ export const ConfigurationPage = (props: IConfigurationPageProps) => {
   const env = configuration && configuration.env ? configuration.env : {};
 
   return (
-    <div>
+    <div className="header-padding">
       <h2 id="configuration-page-heading">Configuration</h2>
       <span>Filter</span> <Input type="search" value={filter} onChange={changeFilter} name="search" id="search" />
       <label>Spring configuration</label>

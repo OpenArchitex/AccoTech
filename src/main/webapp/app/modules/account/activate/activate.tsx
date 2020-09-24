@@ -35,7 +35,7 @@ export const ActivatePage = (props: IActivateProps) => {
   }, []);
 
   return (
-    <div>
+    <div className="header-padding">
       <Row className="justify-content-center">
         <Col md="8">
           <h1>Activation</h1>

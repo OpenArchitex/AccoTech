@@ -62,7 +62,7 @@ export const UserManagement = (props: IUserManagementProps) => {
 
   const { users, account, match, totalItems } = props;
   return (
-    <div>
+    <div className="header-padding">
       <h2 id="user-management-page-heading">
         Users
         <Link to={`${match.url}/new`} className="btn btn-primary float-right jh-create-entity">

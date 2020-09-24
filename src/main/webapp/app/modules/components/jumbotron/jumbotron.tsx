@@ -12,12 +12,12 @@ const JumbotronElement = () => {
       <div className="container h-100 text-container">
         <div className="d-flex h-100 text-center align-items-center">
           <div className="w-100 text-white">
-            <h1 className="display-3">AccoTech</h1>
+            <h1 className="display-3">AccoTech Accounting</h1>
             <p className="lead mb-0">
-              <q>This is a question too difficult for a mathematician. It should be asked of a philosopher.</q>
+              <q>Don&rsquo;t ever let your business get ahead of the financial side of your business. Accounting, accounting, accounting. Know your numbers.</q>
             </p>
             <br/>
-            <p>&#8275; Albert Einstein (when asked about completing his income tax form) &#8275;</p>
+            <p>&#8275; Tilman J. Fertitta &#8275;</p>
           </div>
         </div>
       </div>
