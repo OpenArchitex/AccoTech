@@ -16,7 +16,7 @@ const Team = () => {
         <Col className="col-12 col-md-6">
           <Row>
             <Col className="col-md-12 text-center">
-              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+              <img src="../../../content/images/team-member1.png" alt="team-member1" className="img-fluid rounded-circle team-member" />
               <div className="pt-2">
                 <h5 className="mt-4 font-weight-medium mb-0">Michael Doe</h5>
                 <h6 className="subtitle mb-3">Property Specialist</h6>
@@ -33,7 +33,7 @@ const Team = () => {
         <Col>
           <Row>
             <Col className="col-md-12 text-center">
-              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+              <img src="../../../content/images/team-member2.png" alt="team-member2" className="img-fluid rounded-circle team-member" />
               <div className="pt-2">
                 <h5 className="mt-4 font-weight-medium mb-0">Michael Doe</h5>
                 <h6 className="subtitle mb-3">Property Specialist</h6>
