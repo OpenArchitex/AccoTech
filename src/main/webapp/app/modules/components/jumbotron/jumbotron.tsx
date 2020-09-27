@@ -20,9 +20,9 @@ const JumbotronElement = () => {
             <br/>
             <p>&#8275; Tilman J. Fertitta &#8275;</p>
             <Container>
-              <Button color="info" className="mt-3" tag={Link} to='#services'>Learn More</Button>
+              <a className="btn btn-info mt-3" href='#services'>Learn More</a>
               {' '}
-              <Button color="info" className="mt-3" tag={Link} to='#contact-us'>Contact Us</Button>
+              <a className="btn btn-info mt-3" href='#contact-us'>Contact Us</a>
             </Container>
           </div>
         </div>
