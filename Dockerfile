@@ -7,7 +7,7 @@ RUN \
     cd /code/ && \
     rm -Rf build node_modules && \
     chmod +x /code/gradlew && \
-    sleep 1 && \
+    sleep 10 && \
     ./gradlew bootJar -PnodeInstall -Pprod && \
     mv /code/build/libs/*.jar / && \
     apt-get clean && \
