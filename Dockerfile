@@ -8,7 +8,7 @@ RUN \
     rm -Rf build node_modules && \
     chmod +x /code/gradlew && \
     sleep 1 && \
-    ./gradlew bootJar -Pprod -PnodeInstall -x test && \
+    ./gradlew bootJar -PnodeInstall -Pprod && \
     mv /code/build/libs/*.jar / && \
     apt-get clean && \
     rm -Rf /code/ /root/.m2 /root/.cache /tmp/* /var/lib/apt/lists/* /var/tmp/*  && \

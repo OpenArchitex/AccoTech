@@ -54,7 +54,7 @@ jobs:
                 spring.data.mongodb.password: ${{ secrets.DATABASE_PASSWORD }}
 
             - name: Package application
-              run: ./gradlew bootJar -Pprod -x test -x integrationTest
+              run: ./gradlew bootJar -PnodeInstall -Pprod -x test -x integrationTest
             - name: Deploy to Heroku
               if: github.event_name == 'push' && github.ref == 'refs/heads/master'
               env:
