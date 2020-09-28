@@ -4,8 +4,6 @@ import { NavItem, NavLink, NavbarBrand } from 'reactstrap';
 import { NavLink as Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import appConfig from 'app/config/constants';
-
 export const BrandIcon = props => (
   <div {...props} className="brand-icon">
     <img src="content/images/logo-accotech.svg" alt="Logo" />
@@ -15,7 +13,6 @@ export const BrandIcon = props => (
 export const Brand = props => (
   <NavbarBrand tag={Link} to="/" className="brand-logo">
     <BrandIcon />
-    <span className="navbar-version">{appConfig.VERSION}</span>
   </NavbarBrand>
 );
 
