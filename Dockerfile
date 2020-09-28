@@ -5,9 +5,9 @@ RUN \
     apt-get install build-essential -y && \
     apt-get install nodejs -y && \
     cd /code/ && \
-    rm -Rf build node_modules && \
+    rm -Rf build && \
     chmod +x /code/gradlew && \
-    sleep 10 && \
+    sleep 1 && \
     ./gradlew bootJar -PnodeInstall -Pprod && \
     mv /code/build/libs/*.jar / && \
     apt-get clean && \
