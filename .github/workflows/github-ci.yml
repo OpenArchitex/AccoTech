@@ -45,3 +45,11 @@ jobs:
                   fi
             - name: Package application
               run: ./gradlew bootJar -Pprod -x test -x integrationTest
+            - name: Deploy to Heroku
+              if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+              env:
+                  HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+              run: |
+                  heroku container:login
+                  heroku container:push -a python-sinhala web
+                  heroku container:release -a python-sinhala web
