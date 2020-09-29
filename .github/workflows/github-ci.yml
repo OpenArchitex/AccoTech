@@ -55,7 +55,7 @@ jobs:
 
             # Replace DatabaseConfiguration without migration (Mongo-Atlas hack due to bug in Mongobee)
             - name: Replace DatabaseConfiguration.java
-              run: cd src/main/resources/config && mv DatabaseConfiguration.txt DatabaseConfiguration.java
+              run: cd src/main/java/com/openarchitex/accotech/config && mv DatabaseConfiguration.txt DatabaseConfiguration.java
 
             - name: Package application
               run: ./gradlew bootJar -PnodeInstall -Pprod -x test -x integrationTest
