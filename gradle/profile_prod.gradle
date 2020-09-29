@@ -10,6 +10,10 @@ if (project.hasProperty("swagger")) {
     profiles += ",swagger"
 }
 
+if (project.hasProperty("heroku")) {
+    profiles += ",heroku"
+}
+
 springBoot {
     buildInfo()
 }
