@@ -8,7 +8,7 @@ RUN \
     rm -Rf build && \
     chmod +x /code/gradlew && \
     sleep 1 && \
-    ./gradlew bootJar -PnodeInstall -Pprod && \
+    ./gradlew bootJar -PnodeInstall -Pprod -Pheroku && \
     mv /code/build/libs/*.jar / && \
     apt-get clean && \
     rm -Rf /code/ /root/.m2 /root/.cache /tmp/* /var/lib/apt/lists/* /var/tmp/*  && \
