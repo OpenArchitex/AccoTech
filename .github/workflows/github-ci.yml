@@ -53,6 +53,10 @@ jobs:
                 spring.data.mongodb.database: ${{ secrets.DATABASE_NAME }}
                 spring.data.mongodb.password: ${{ secrets.DATABASE_PASSWORD }}
 
+            # Replace DatabaseConfiguration without migration (Mongo-Atlas hack due to bug in Mongobee)
+            - name: Replace DatabaseConfiguration.java
+              run: cd src/main/resources/config && mv DatabaseConfiguration.txt DatabaseConfiguration.java
+
             - name: Package application
               run: ./gradlew bootJar -PnodeInstall -Pprod -x test -x integrationTest
             - name: Deploy to Heroku
