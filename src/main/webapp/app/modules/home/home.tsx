@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Row, Col, Alert } from 'reactstrap';
 
-import JumbotronElement from "app/modules/components/jumbotron/jumbotron";
-import Services from "app/modules/components/services/services";
-import ContactUs from "app/modules/components/contact-us/contact-us";
-import Team from "app/modules/components/team/team";
+import JumbotronElement from 'app/modules/components/jumbotron/jumbotron';
+import Services from 'app/modules/components/services/services';
+import ContactUs from 'app/modules/components/contact-us/contact-us';
+import Team from 'app/modules/components/team/team';
 
 export type IHomeProp = StateProps;
 
@@ -18,13 +18,13 @@ export const Home = (props: IHomeProp) => {
 
   return (
     <Row>
-      <JumbotronElement/>
-      <Services/>
-      <hr/>
-      <Team/>
-      <hr/>
-      <ContactUs/>
-      <hr/>
+      <JumbotronElement />
+      <Services />
+      <hr />
+      <Team />
+      <hr />
+      <ContactUs />
+      <hr />
     </Row>
   );
 };
