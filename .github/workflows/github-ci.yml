@@ -34,6 +34,7 @@ jobs:
             - name: Run frontend test
               run: npm run test-ci
             - name: Analyze code with SonarQube
+              if: github.repository == 'OpenArchitex/AccoTech' && github.ref == 'refs/heads/master'
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
