@@ -1,5 +1,5 @@
-import React from "react";
-import  { Container, Row, Col }  from "reactstrap";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import './team.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -9,7 +9,10 @@ const Team = () => {
       <Row className="justify-content-center">
         <Col className="col-md-7 text-center">
           <h1 className="mb-3">Experienced & Professional Team</h1>
-          <h6 className="subtitle mb-5">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+          <h6 className="subtitle mb-5">
+            You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in
+            no-time
+          </h6>
         </Col>
       </Row>
       <Row>
@@ -22,9 +25,21 @@ const Team = () => {
                 <h6 className="subtitle mb-3">Property Specialist</h6>
                 <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                 <ul className="list-inline">
-                  <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><FontAwesomeIcon icon={['fab', 'facebook']}/></a></li>
-                  <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><FontAwesomeIcon icon={['fab', 'twitter']}/></a></li>
-                  <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><FontAwesomeIcon icon={['fab', 'instagram']}/></a></li>
+                  <li className="list-inline-item">
+                    <a href="#" className="text-decoration-none d-block px-1">
+                      <FontAwesomeIcon icon={['fab', 'facebook']} />
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#" className="text-decoration-none d-block px-1">
+                      <FontAwesomeIcon icon={['fab', 'twitter']} />
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#" className="text-decoration-none d-block px-1">
+                      <FontAwesomeIcon icon={['fab', 'instagram']} />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Col>
@@ -39,9 +54,21 @@ const Team = () => {
                 <h6 className="subtitle mb-3">Property Specialist</h6>
                 <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
                 <ul className="list-inline">
-                  <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><FontAwesomeIcon icon={['fab', 'facebook']}/></a></li>
-                  <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><FontAwesomeIcon icon={['fab', 'twitter']}/></a></li>
-                  <li className="list-inline-item"><a href="#" className="text-decoration-none d-block px-1"><FontAwesomeIcon icon={['fab', 'instagram']}/></a></li>
+                  <li className="list-inline-item">
+                    <a href="#" className="text-decoration-none d-block px-1">
+                      <FontAwesomeIcon icon={['fab', 'facebook']} />
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#" className="text-decoration-none d-block px-1">
+                      <FontAwesomeIcon icon={['fab', 'twitter']} />
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a href="#" className="text-decoration-none d-block px-1">
+                      <FontAwesomeIcon icon={['fab', 'instagram']} />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Col>

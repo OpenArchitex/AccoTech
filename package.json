@@ -117,7 +117,7 @@
     "node": ">=12.16.1"
   },
   "scripts": {
-    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,ts,tsx,css,scss,yml}\"",
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,ts,tsx,css,scss,yml,html}\"",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "npm run lint -- --fix",
     "cleanup": "rimraf build/resources/main/static/",

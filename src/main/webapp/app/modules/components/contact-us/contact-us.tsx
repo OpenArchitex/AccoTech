@@ -1,5 +1,5 @@
-import React from "react";
-import  { Container, Row, Col }  from "reactstrap";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import './contact-us.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -13,13 +13,13 @@ const ContactUs = () => {
           <Row>
             <Col className="col-xs-12 col-sm-4 offset-sm-2 text-center">
               <div className="mb-3 mt-3 text-center">
-                <FontAwesomeIcon icon="phone" size="2x"/>
+                <FontAwesomeIcon icon="phone" size="2x" />
               </div>
               <a href="tel:+1 888 343-1234">+1 888 123-4567</a>
             </Col>
             <Col className="col-xs-12 col-sm-4 text-center">
               <div className="mb-3 mt-3 text-center">
-                <FontAwesomeIcon icon={['far', 'envelope']} size="2x"/>
+                <FontAwesomeIcon icon={['far', 'envelope']} size="2x" />
               </div>
               <a href="mailto:support@accotech.com">support@accotech.com</a>
             </Col>
