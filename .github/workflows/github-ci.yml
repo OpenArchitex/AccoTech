@@ -34,7 +34,7 @@ jobs:
             - name: Run frontend test
               run: npm run test-ci
             - name: Analyze code with SonarQube
-              if: github.repository == 'OpenArchitex/AccoTech' && github.ref == 'refs/heads/master'
+              if: github.repository == 'OpenArchitex/AccoTech' && github.ref == 'refs/heads/main'
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -61,7 +61,7 @@ jobs:
             - name: Package application
               run: ./gradlew bootJar -PnodeInstall -Pprod -x test -x integrationTest
             - name: Deploy to Heroku
-              if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+              if: github.event_name == 'push' && github.ref == 'refs/heads/main'
               env:
                   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
               run: |
